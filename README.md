@@ -4,6 +4,8 @@ Protótipo desenvolvido como Trabalho de Conclusão de Curso por Leandro Esser F
 
 ## Como funciona
 
+[Diagrama completo do framework](docs/DIAGRAMA_FRAMEWORK.md)
+
 ~~~text
 PCAP → Pré-processamento → Detecção binária → Validação e tipagem → Decisão local
              │                                       │                  │
