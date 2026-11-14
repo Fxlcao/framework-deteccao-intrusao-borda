@@ -77,6 +77,8 @@ A saída JSONL registra os eventos e, para as janelas processadas, a predição,
 
 ## Validação experimental
 
+O [guia do cenário misto de 90 segundos](docs/CENARIO_MISTO_90S.md) lista os seis PCAPs de origem e mostra como reconstruir o arquivo misto e o mapa de referência para repetir o ensaio offline.
+
 | Ensaio | Resultado registrado no TCC |
 | --- | --- |
 | PCAP misto de 89,99 s, processado offline | 68.996 registros, 6.887 janelas classificadas e seis episódios sinalizados. Cada episódio teve pelo menos uma janela com subtipo correto. A taxa de falsos positivos por janela de referência negativa foi de 39,5%. |
